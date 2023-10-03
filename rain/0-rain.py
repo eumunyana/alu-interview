@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Calculating the square units of rain that will be retained after it rains:"""
 
+
 def rain(walls):
     """Calculate how many square units of water
     will be retained"""
@@ -16,6 +17,7 @@ def rain(walls):
             right = max(right, walls[k])
         water += min(left, right) - walls[i]
     return water
+
 
 if __name__ == "__main__":
     walls = [0, 1, 0, 2, 0, 3, 0, 4]
