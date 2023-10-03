@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Calculating the square units of rain that will be retained after it rains:"""
+"""Calculating the square units of rain:"""
 
 
 def rain(walls):
